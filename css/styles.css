@@ -59,6 +59,8 @@ img {
 a {
     text-decoration: none;
     font-style: normal;
+    /* Внизу - тест */
+    text-decoration-color: inherit;
 }
 
 /* 
