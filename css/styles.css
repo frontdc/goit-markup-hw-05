@@ -837,7 +837,7 @@ address .contacts-link.rgba:focus {
 
     overflow: auto;
 
-    transform: translateY(100%);   
+    transform: translateY(101%);   
     transition: transform var(--transition-dur-and-func);
 }
 
