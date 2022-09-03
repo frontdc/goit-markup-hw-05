@@ -61,9 +61,11 @@ a {
     font-style: normal;
 }
 
+/* 
 a:visited {
     color: inherit;
 }
+ */
 
 button {
     border: 0;
@@ -141,6 +143,7 @@ button {
 
 .logo-header {
     margin-right: 93px;
+    color: var(--logo-color);
     
 }
 
@@ -535,7 +538,7 @@ button {
     border-radius: 4px;
     color: var(--default-icons-color);
 
-    transition: color var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func), border var(--transition-dur-and-func);
 }
 
 .clients-link:hover,
